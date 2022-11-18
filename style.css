@@ -1,0 +1,272 @@
+body{
+    padding: 0%;
+    margin: 0;
+    -webkit-text-size-adjust: 100%;
+    background-color: #c0d1d3;
+}
+*{
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+}
+.nav{
+    background: #6db8bf;
+}
+.nav-link{
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+}
+.nav-link {
+    margin-right: 1em !important;
+}
+.nav-link:hover {
+    color: #000;
+}
+.header{
+    background-color: rgb(63, 61, 61);
+    height: 95vh;
+    display: block;
+}
+
+.blogHeader{
+    background: #e90052;
+    /* background: #0c1414; */
+    color: #fff;
+    overflow: hidden;
+    margin-bottom: 2rem;
+    font-size: 1.4rem;
+    height: 100%;
+}
+.wrapper{
+    max-width: 1376px;
+    margin: 0 auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.wrapper .col-12{
+    padding: 60px;
+}
+
+.blogHeader .imgContainer{
+    position: absolute;
+    top: 0;
+    right: 1rem;
+    bottom: 0;
+    width: 65%;
+    /* background-image: url(./image/a.jpg); */
+    background-position: center;
+    background-size: cover;
+}
+.blogHeader .shardLeft{
+    left: -1px;
+    top: 0;
+}
+.blogHeader .shard{
+    position: absolute;
+    fill: #e90052;
+    /* fill: #6db8bf; */
+    height: 100%;
+}
+svg:not(:root){
+    width:auto;
+    overflow: hidden;
+}
+:not(svg){
+    transform-origin: 0px 0px;
+}
+.blogHeader .summary{
+    position: relative;
+    z-index: 1;
+}
+
+[class*=col-12]{
+    box-sizing: border-box;
+    width: 100%;
+    float: left;
+    position: relative;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+#landing{
+    box-sizing: border-box;
+    width: 95%;
+    height: 10%;
+    padding: 40px;
+}
+.mt-1{
+    font-size: 2rem;
+    color: black;
+}
+.btn{
+    color: #fff;
+    width: 20vh;
+    opacity: 0.7;
+    /* background-color: #c0d1d3; */
+    background-color: #6db8bf;
+    /* background-color: rgb(34, 34, 212); */
+    box-sizing: border-box;
+}
+.btn:hover{
+    background-color: #c0d1d3;
+    border: 2px solid #fff;
+    font-weight: bolder;
+}
+
+.background {
+	/* background: #dedec8; */
+    /* background: red; */
+	padding: 4em 0;
+}
+.team {
+	color: #5e5e55;
+	/* padding: 0 150px; */
+}
+#cards{
+    /* background: red; */
+}
+
+.team .card-columns {
+	-webkit-column-count: 4;
+	-moz-column-count: 4;
+	column-count: 3;
+}
+.card-img-top{
+    width: 150px;
+    height: 150px;
+    /* border: 1px solid; */
+}
+
+.team .card {
+	background:none;
+    /* background: #587477; */
+	border: none;
+}
+
+.team .card-title {
+	font-size: 1.3rem;
+	margin-bottom: 0;
+	text-transform: uppercase;
+}
+#cv{
+    background-color: #e90052;
+    color: #000;
+}
+
+
+.bg-image {
+    /* The image used */
+    background-image: url("./image/d.jpg");
+  
+    /* Add the blur effect */
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* Position text in the middle of the page/image */
+.bg-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.tcb-quote-carousel {
+    background: #17171c;
+    padding-top: 30px;
+    margin-top: 40px;
+    .quote {
+      color: rgba(0, 0, 0, .1);
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .carousel {
+      padding-bottom: 30px;
+      .carousel-indicators > li {
+        background-color: #141e2e;
+        border: none;
+      }
+    }
+    blockquote {
+      margin-top: 5px;
+      text-align: center;
+      border: none;
+      color: grey;
+      font-size: 10px;
+    }
+    .profile-circle {
+      width: 50px;
+      height: 50px;
+      margin: 0 auto;
+      overflow: hidden;
+      border-radius: 100px;
+    }
+  }
+  
+  .carousel-fade {
+    .carousel-inner {
+      .item {
+        transition-property: opacity;
+      }
+      .item,
+      .active.left,
+      .active.right {
+        opacity: 0;
+      }
+      .active,
+      .next.left,
+      .prev.right {
+        opacity: 1;
+      }
+      .next,
+      .prev,
+      .active.left,
+      .active.right {
+        left: 0;
+        transform: translate3d(0, 0, 0);
+      }
+    }
+  }
+
+*/
