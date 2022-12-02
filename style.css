@@ -211,9 +211,10 @@ svg:not(:root){
   -ms-transform: translate(-50%, -50%);
   background-color: red;
   color: white;
+  /* font-weight: bold; */
   font-size: 20px;
-  padding: 12px 24px;
-  padding: 10px 1px;
+  /* padding: 12px 24px; */
+  /* padding: 10px 2px; */
   border: none;
   cursor: pointer;
   border-radius: 5px;
@@ -222,7 +223,20 @@ svg:not(:root){
 
 .containers .btn:hover {
   background-color: black;
+  color: #fff;
+  text-align: center;
+  animation: mymove 1s ease-in-out infinite alternate;
 }
+@keyframes mymove {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 40px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+
 
 /* =========================================contact=========================== */
 .bg-contact100 {
