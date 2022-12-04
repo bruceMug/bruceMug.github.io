@@ -7,6 +7,7 @@
     <title>Bruce Mug</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -18,10 +19,10 @@
             <a class="nav-link active" aria-current="page" href="#">Home</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">About Me</a>
+            <a class="nav-link" href="./badges.html">About Me</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">Contact me</a>
+            <a class="nav-link" href="#contact">Contact me</a>
         </li>
     </ul>
 
@@ -29,7 +30,7 @@
     <header class="blogHeader">
         <div class="wrapper">
             <div class="col-12">
-                <div class="imgContainer" style="background-image: url(./image/a.jpg);">
+                <div class="imgContainer" style="background-image: url(./image/20221027_132006.jpg);">
                     <svg xmlns="//www.w3.org/2000/svg" viewBox="0 0 165.9 369.5" class="shard shardLeft"
                         preserveAspectRatio="xMinYMin meet">
                         <path
@@ -47,10 +48,10 @@
                             <h3 class="mt-1">BRUCE MUGIZI</h3>
                         </strong>
                     </div>
-                    <div class="container-fluid mt-1">
-                        <button type="button" class="glow-on-hover">
-                            Get in touch
-                        </button>
+                    <div class="container-fluid mt-1"><a href="mailto:mugizi@duck.com">
+                            <button type="button" class="glow-on-hover">
+                                Get in touch
+                            </button></a>
                     </div>
                 </div>
             </div>
@@ -187,7 +188,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-4 border border-white">
+                    <div class="col-4 border border-white text-center">
                         <h2>Bigger World, Bigger Stories</h2>
                         <p>
                         <blockquote>
@@ -212,67 +213,7 @@
         <a type="button" class="btn text-white glowOnhover" href="##">Download CV</a>
     </div>
 
-
-
-    <div class="content" style="background-color:white;">
-        <div class="border border-danger">
-            <div class="row justify-content-center">
-                <div class="col-md-12">
-                    <div class="row justify-content-center p-5">
-                        <div class="col-md-4 contact border border-info">
-                            <h3 class="heading mb-4">Let's Talk about everything</h3>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta deleniti rerum, obcaecati
-                                consectetur nam repellendus alias nostrum, impedit praesentium magni eaque! Repellendus
-                                amet sit rerum consequatur ratione magni ea? Earum!</p>
-                            <p>
-                                <img src="./image/discover-14-one-forth.png" alt="" class="img-fluid">
-                            </p>
-                        </div>
-                        <div class="col-md-5 border border-success">
-                            <form class="" method="post" id="contactForm" name="contactForm" novalidate="novalidate">
-                                <div class="row">
-                                    <div class="col-md-12 form-group">
-                                        <input type="text" class="form-control" name="name" id="name"
-                                            placeholder="Your name">
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-12 form-group">
-                                        <input type="text" class="form-control" name="email" id="email"
-                                            placeholder="Your Email">
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-12 form-group">
-                                        <input type="text" class="form-control" name="subject" id="subject"
-                                            placeholder="Subject">
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-12 form-group">
-                                        <textarea name="message" id="message" cols="30" rows="7"
-                                            placeholder="Write Your message"></textarea>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-12">
-                                        <input type="submit" value="Send Message"
-                                            class="btn btn-primary rounded-0 py-2 px-4">
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                        <div class="col-md-2 border border-success" style="background: #01d28e;">u will put contacts
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <!-- <a href="https://codepen.io/uiswarup/full/RwNraeW" target="_blank"> -->
-    <section>
+    <section id="contact">
         <div class="containe">
             <div class="background-img p-1">
                 <div class="box">
@@ -286,7 +227,7 @@
                                 <div class="p-md-3 text-start align-items-start">
                                     <h3 class="heading mb-3">Let's get in touch</h3>
                                     <p style="color: #c4cdd6;;">I am open for any suggestion or just to have a chat</p>
-                                    <img src="./image/undraw-contact.svg" alt="" class="img-fluid">
+                                    <img src="./image/svg/undraw-contact.svg" alt="....." class="img-fluid">
                                     </p>
                                 </div>
                             </div>
@@ -317,17 +258,59 @@
                                                 placeholder="Write Your message" required></textarea>
                                         </div>
                                     </div>
-                                    <div class="">
+                                    <div class="message">
                                         <button>
-                                            Submit
+                                            Send Message
                                             <i class=""></i>
                                         </button>
                                     </div>
-                                    
+
                                 </form>
                             </div>
-                            <div class="col-md-2 border border-danger">
-                                border3
+                            <div class="col-md-2">
+                                <div class="row info d-flex flex-sm-column mt-2">
+                                    <div class="col">
+                                        <div class="dbox w-100 text-center mt-2">
+                                            <div class="text">
+                                                <p><img src="./image/svg/geo-alt-fill.svg"> Address <br>Makerere
+                                                    Street, Suite 721 Kampala UG
+                                                    10016</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="dbox w-100 text-center mt-2">
+                                            <div class="text">
+                                                <p><img src="./image/svg/envelope.svg"> Email
+                                                    <a href="mailto:mugizi@duck.com">mugizi@duck.com</a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="dbox w-100 text-center mt-2">
+                                            <p><img src="./image/svg/telephone.svg"> Phone <br><a
+                                                    href="tel://+256759085695">+256 759 085 695</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="dbox w-100 text-center mt-2">
+                                        <div class="text">
+                                            <p><img src="./image/svg/telegram.svg"> Telegram <br><a
+                                                    href="https://t.me/jaydenbru">mugizi@telegram</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <!-- <div class="card">
+                                    <div class="card-body">
+                                        <h5 class="card-title"></h5>
+                                        <p class="card-text"></i> mugizi@duck.com </p>
+                                        
+                                        <i class="bi-envelope"></i>
+                                    </div>
+                                </div> -->
                             </div>
                         </div>
                     </div>
@@ -336,7 +319,6 @@
             </div>
         </div>
     </section>
-    <!-- </a> -->
 
 
     <!-- <div class="section">
@@ -395,7 +377,7 @@
             </div>
         </div>
     </div> -->
-    -->
+
 
     <!-- 
         <div class="container">
@@ -437,6 +419,20 @@
   </div>
      -->
 
+    <footer id="footer">
+        <ul class="icons">
+            <li><a href="#" class="icon"><img src="./image/svg/twitter.svg"></a></li>
+            <li><a href="#" class="icon"><img src="./image/svg/envelope.svg"></a></li>
+            <li><a href="#" class="icon"><img src="./image/svg/linkedin.svg"></a></li>
+            <li><a href="#" class="icon"><img src="./image/svg/laptop.svg"></a></li>
+            <li><a href="https://github.com/bruceMug" class="icon"><img src="./image/svg/github.svg"></a></li>
+            <li><a href="mailto:mugizi@duck.com" class="icon"><img src="./image/svg/envelope.svg"></a></li>
+        </ul>
+        <ul class="copyright">
+            <li>©All rights reserved</li>
+            <li>Design: <a href="#">Bruce</a></li>
+        </ul>
+    </footer>
 
     <!-- ----------------------------------------------------------------------------------------- -->
     <script src="./event.js"></script>
