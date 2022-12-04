@@ -28,7 +28,11 @@ body {
 }
 
 .nav-link:hover {
-  color: #000;
+  color: #fff;
+  /* border: 1px solid red; */
+  border-left: 2px solid #fff;
+  border-right: 2px solid #fff;
+  border-radius: 12px;
 }
 
 .header {
@@ -116,10 +120,11 @@ svg:not(:root) {
   /* color: black; */
 }
 
+
 .glow-on-hover {
   /* width: 200px; */
   /* height: 50px; */
-  border: none;
+  /* border: none; */
   outline: none;
   color: #fff;
   /* background: #111; */
@@ -133,7 +138,11 @@ svg:not(:root) {
   width: 20%;
   opacity: 0.7;
   background-color: #6db8bf;
+  width: fit-content;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
 }
+
 
 .glow-on-hover:before {
   content: '';
@@ -298,6 +307,7 @@ svg:not(:root) {
   cursor: pointer;
   border-radius: 5px;
   text-align: center;
+  width: fit-content;
 }
 
 .containers .btn:hover {
@@ -320,7 +330,7 @@ svg:not(:root) {
 .glowOnhover {
   /* width: 200px; */
   /* height: 50px; */
-  border: none;
+  /* border: none; */
   outline: none;
   color: #fff;
   /* background: #111; */
@@ -403,8 +413,8 @@ svg:not(:root) {
 }
 
 .btn:hover {
-  /* background-color: #c0d1d3; */
-  border: 2px solid #fff;
+  /* background-color: none; */
+  /* border: 2px solid #fff; */
   font-weight: bolder;
 }
 
@@ -580,8 +590,6 @@ body{
   
 }
 
-
-
 .box span{
   position: absolute;
   top: 0;
@@ -650,6 +658,59 @@ body{
   
 } 
 
+/* ===============================form======== */
+
+form {
+  display: block;
+  margin-top: 0em;
+  margin-right: 20px;
+}
+
+.form-group {
+  /* position: absolute; */
+  display: block;
+  margin-bottom: 1.5rem;
+}
+.form-control {
+  border: none;
+  border-bottom: 2px solid #00ade6;
+  border-radius: 0px;
+  display: block;
+  width: 100%;
+  height: 43px;
+  font-size: 15px;
+  background: 0 0;
+  font-family: montserrat-semibold;
+}
+input[type="text" i] {
+  padding: 1px 2px;
+  color: #fff;
+}
+textarea{
+  font-size: 15px;
+  width: 100%;
+  border: none;
+  height: 100px;
+  background: 0 0;
+  border-bottom: 2px solid #00ade6; 
+}
+button{
+  width: 162px;
+  height: 40px;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  background: 0 0;
+  cursor: pointer;
+  border: 2px solid #fff;
+  text-transform: uppercase;
+  transform: perspective(1px) translateZ(0);
+  position: relative;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: .3s;
+  transition-duration: .3s;
+}
 
 
 
